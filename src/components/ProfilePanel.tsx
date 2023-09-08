@@ -8,7 +8,7 @@ export default function ProfilePanel() {
         <div className="ml-8 mt-8 md:w-60 md:h-60 w-full h-full md:rounded-full overflow-hidden">
           <Image
             className="w-full h-full"
-            src="/avatar.jpg"
+            src="https://raw.githubusercontent.com/moyomogi/web-koushu/master/public/avatar.jpg"
             alt="avatar"
             width={240}
             height={240}

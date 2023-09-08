@@ -7,7 +7,7 @@ export default function Header() {
         <div className="items-center cursor-pointer hover:bg-red-100 duration-200 px-3 py-2 inline-flex">
           <Image
             className="rounded-full"
-            src="/random_logo.png"
+            src="https://raw.githubusercontent.com/moyomogi/web-koushu/master/public/random_logo.png"
             alt="logo"
             width={64}
             height={64}
