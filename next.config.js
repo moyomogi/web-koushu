@@ -1,7 +1,7 @@
 /** @type {import("next").NextConfig} */
 
 require("dotenv").config();
-let branchName = "web-koushu";
+let branchName = "/web-koushu";
 
 const nextConfig = {
   output: process.env.BUILD_TYPE == "test" ? "" : "export",
