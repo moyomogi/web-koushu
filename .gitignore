@@ -4,5 +4,6 @@ out
 build
 
 *.log
+.env
 memo.md
 next-env.d.ts
