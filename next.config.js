@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
+
+let branchName = "web-koushu";
+
 const nextConfig = {
   output: "export",
-  basePath: "web-koushu",
+  assetPrefix: branchName,
+  basePath: branchName,
   trailingSlash: true,
 };
 
